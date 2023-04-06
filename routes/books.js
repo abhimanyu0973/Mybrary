@@ -127,7 +127,7 @@ router.delete('/:id', async (req, res) => {
 })
 
 async function renderNewPage(res, book, hasError = false) {
-  renderFormPage(res, book, 'new', form)
+  renderFormPage(res, book, 'new')
 }
 
 async function renderEditPage(res, book, hasError = false) {
